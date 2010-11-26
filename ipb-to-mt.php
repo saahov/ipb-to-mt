@@ -29,7 +29,7 @@ $query = "
          ORDER BY topic_id ASC
          LIMIT 10000
          ";
-$query = mysql_query($query) or die("Query Error: ".mysql_error());
+$query = mysql_query($query) or die("Query Error: " . mysql_error());
 
 // Print results
 while ($row = mysql_fetch_array($query)) {
